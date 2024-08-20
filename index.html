@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>Generate a <span class="font-random">Random Password</span></h1>
+                <h3>Never use an insecure password again.</h3>
+            </div>
+            <div>
+                <button id="btnPassword">Generate Password</button>
+                <div class="lengthLabel">
+                    <input id="lengthInput" type="number" min=10 value="15"><span class="pass-length">Password length</span>
+                    <div class="include">
+                        <h4>Includes:</h4>
+                        <label>
+                            <input class="cbox" type="checkbox" id="includeNumbers">Numbers
+                        </label>
+                        <label>
+                            <input class="cbox" type="checkbox" id="includeSymbols">Symbols
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="genPassword">Generates Password: <span id="message-el" class="message-el"></span></h3>
+                    <input class="password-text" id="randomPasswordOne" readonly>
+                    <input class="password-text" id="randomPasswordTwo" readonly>
+                </div>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

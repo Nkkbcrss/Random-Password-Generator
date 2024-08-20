@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+.container {
+    margin: 60px;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 52px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 48px;
+    width: 450px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+h3 {
+    color: #D5D4D8;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #10B981;
+}
+
+#btnPassword {
+    background: #10B981;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.password-text {
+    background: #273549;
+    border: none;
+    width: 240px;
+    height: 40px;
+    color: #10B981;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.lengthLabel {
+    margin-bottom: 50px;
+}
+
+.pass-length {
+    color: white;
+}
+
+#lengthInput {
+    margin-right: 5px;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    color: #10B981;
+    background-color: #273549;
+}
+
+.include{
+    color: #ffffff;
+}
+
+.cbox {
+    accent-color: #10B981;
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.include label {
+    margin-right: 10px;
+}
+
+#message-el {
+    color: #ff5400;
+    font-size: 12px;
+}
