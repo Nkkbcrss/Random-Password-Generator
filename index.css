@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    margin: 60px;
+    margin: 60px auto;
     width: 550px;
     height: 550px;
     background-color: #1F2937;
@@ -91,4 +91,9 @@ h1 span {
 #message-el {
     color: #ff5400;
     font-size: 12px;
+}
+
+.password-text:focus {
+    border: 3px solid #10B981;
+    outline: none;
 }
